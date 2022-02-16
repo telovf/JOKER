@@ -5864,8 +5864,13 @@ data = {
 },
 }
 }
-LuaTele.setChatMemberStatus(msg.chat_id,Message_Reply.sender.user_id,'restricted',{1,1,1,1,1,1,1,1,1})
+if Redis:sismember(TheJOKER.."JOKER:BanGroup:Group"..msg_chat_id,Message_Reply.sender.user_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(Message_Reply.sender.user_id,"᥀︙تم طرده من المجموعه مسبقا ").Reply,"md",true, false, false, false, reply_markup)
+else
+Redis:sadd(TheJOKER.."JOKER:BanGroup:Group"..msg_chat_id,Message_Reply.sender.user_id) 
+LuaTele.setChatMemberStatus(msg.chat_id,Message_Reply.sender.user_id,'banned',0)
 return LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(Message_Reply.sender.user_id,"᥀︙تم طرده من المجموعه ").Reply,"md",true, false, false, false, reply_markup)
+end
 end
 
 if text and text:match('^حظر عام (%d+)$') then
@@ -6130,8 +6135,13 @@ data = {
 },
 }
 }
-LuaTele.setChatMemberStatus(msg.chat_id,UserId,'restricted',{1,1,1,1,1,1,1,1,1})
+if Redis:sismember(TheJOKER.."JOKER:BanGroup:Group"..msg_chat_id,UserId) then
+return LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(UserId,"᥀︙تم طرده من المجموعه مسبقا ").Reply,"md",true, false, false, false, reply_markup)
+else
+Redis:sadd(TheJOKER.."JOKER:BanGroup:Group"..msg_chat_id,UserId) 
+LuaTele.setChatMemberStatus(msg.chat_id,UserId,'banned',0)
 return LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(UserId,"᥀︙تم طرده من المجموعه ").Reply,"md",true, false, false, false, reply_markup)
+end
 end
 
 if text == "اطردني" or text == "طردني" then
