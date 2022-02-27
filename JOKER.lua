@@ -156,8 +156,8 @@ Distinguished = Redis:sismember(TheJOKER.."JOKER:Distinguished:Group"..ChatId,Us
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
 if UserId == 1127091205 then
 Status = 'مبرمج السورس'
-elseif UserId == 1127091205 then
-Status = 'مطور السورس'
+elseif UserId == 1491969883 then
+Status = 'قائدكم عباس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
 elseif UserId == TheJOKER then
