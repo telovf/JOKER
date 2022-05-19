@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (JOKER) @FFMFF.--
---   This Is The Source Channel @FFMFF .   --
---                - 𝗦𝗼𝘂𝗿𝗰𝗲 JOKER-                 --
---        -- https://t.me/FFMFF --         --
+-- This Source Was Developed By (𝙎𝙆𝙐𝙇𝙕) @zbbbbb.--
+--   This Is The Source Channel @Zbbbbb .   --
+--                - 𝗦𝗼𝘂𝗿𝗰𝗲 𝙎𝙆𝙐𝙇𝙕-                 --
+--        -- https://t.me/Zbbbbb --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheJOKER.."JOKER:DevelopersQ:Groups",UserId) 
-if UserId == 1127091205 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1127091205 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -154,10 +154,10 @@ Managers = Redis:sismember(TheJOKER.."JOKER:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheJOKER.."JOKER:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheJOKER.."JOKER:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1127091205 then
+if UserId == 258295856 then
 Status = 'مبرمج السورس'
-elseif UserId == 1491969883 then
-Status = 'قائدكم عباس'
+elseif UserId == 840578470 then
+Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
 elseif UserId == TheJOKER then
@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
-unLock   = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
-lockKid  = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
-lockKick = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
-Reply    = '[𝖲𝗈𝗎𝗋𝖼𝖾 JOKER](https://t.me/BBTBB)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/NNN8X)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
+unLock   = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/VV455)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/NNN8X)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
+lockKid  = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/VV455)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
+lockKick = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/NNN8X)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
+Reply    = '[𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕](https://t.me/NNN8X)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheJOKER.."JOKER:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheJOKER.."JOKER:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheJOKER.."JOKER:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1127091205 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1127091205 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheJOKER.."JOKER:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheJOKER.."JOKER:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheJOKER.."JOKER:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1127091205 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1127091205 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 1127091205 then
+if tonumber(msg.sender.user_id) == 258295856 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 1127091205 then
+elseif tonumber(msg.sender.user_id) == 840578470 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -1575,7 +1575,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ⁦', url='https://t.me/BBTBB'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ⁦', url='https://t.me/NNN8X'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ⁦', url='https://t.me/BBTBB'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ⁦', url='https://t.me/VV455'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ⁦', url='https://t.me/BBTBB'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ⁦', url='https://t.me/NNN8X'},
 },
 }
 }
@@ -2637,13 +2637,13 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '‹ رفع الادمنيه ›', data = msg.sender.user_id..'/addAdmins@'..msg_chat_id},{text = '‹ تفعيل الحمايه ›', data =msg.sender.user_id..'/LockAllGroup@'..msg_chat_id},
+{text = '‹ رفع المالك والادمنيه ›', data = msg.sender.user_id..'/addAdmins@'..msg_chat_id},{text = '‹ تفعيل الحمايه ›', data =msg.sender.user_id..'/LockAllGroup@'..msg_chat_id},
 },
 {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = 't.me/BBTBB'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕', url = 't.me/VV455'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = 't.me/BBTBB'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕', url = 't.me/NNN8X'},
 },
 }
 }
@@ -6259,7 +6259,7 @@ local TestText = "  ❲ Owner Groups ❳\n— — — — — — — — —\n 
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/VV455"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6665,7 +6665,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/NNN8X"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6676,7 +6676,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار متحركه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}},
+{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/VV455"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. msg.chat_id .. '&animation=https://t.me/GifDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6686,7 +6686,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}},
+{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/NNN8X"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6696,7 +6696,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الميمز لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}},
+{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/VV455"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/remixsource/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6707,7 +6707,7 @@ local Text ='*᥀︙تم اختيار ريمكس لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/NNN8X"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6719,7 +6719,7 @@ local Text ='*᥀︙تم اختيار الفلم لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/VV455"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6731,7 +6731,7 @@ local Text ='*᥀︙تم اختيار انمي لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/NNN8X"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6742,7 +6742,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}},
+{{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/VV455"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/lDIDIl/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6753,7 +6753,7 @@ local Text ='*᥀︙تم اختيار صور*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/NNN8X"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -8433,7 +8433,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -9774,8 +9774,8 @@ end
 Redis:del(TheJOKER..'JOKER:Texting:DevTheJOKER')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
-if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("FFMFF")
+if text == 'دار' or text == 'مبرمج السورس' or text == 'المبرمج' then  
+local UserId_Info = LuaTele.searchPublicChat("Zbbbbb")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9786,11 +9786,11 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  ❲ JOKER 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲ 𝙎𝙆𝙐𝙇𝙕 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/VV455"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9800,10 +9800,10 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/FFMFF"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/Zbbbbb"}
 },
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"},
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/NNN8X"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9825,7 +9825,7 @@ local TestText = "  ❲ Developers Bot ❳\n— — — — — — — — —\
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳', url = "https://t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳', url = "https://t.me/VV455"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9896,7 +9896,7 @@ data = {
 {text = 'Facebook', url = 'https://www.facebook.com/help/deleteaccount'},{text = 'Snapchat', url = 'https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount'}
 },
 {
-{text = '˛ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER .', url = 't.me/BBTBB'}, 
+{text = '˛ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 .', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -9912,18 +9912,18 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 video = "https://t.me/jskskdkkdld/5"
 local T =[[
-Welcome to Source : [JOKER TEAM.](https://t.me/BBTBB)
+Welcome to Source : [SKULZ TEAM.](https://t.me/VV455)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/FFMFF"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = "https://t.me/BBTBB"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/FFMFF"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕', url = "https://t.me/VV455"}
 },
 {
-{text = 'ُ𝖳𝖶𝖲 Abbas', url = "https://t.me/FFMFF"}
+{text = 'ُ𝖳𝖶𝖲 DaR', url = "https://t.me/Zbbbbb"}
 },
 {
-{text = 'JOKER TEAM.', url = "https://t.me/BBTBB"}
+{text = 'SKULZ TEAM.', url = "https://t.me/NNN8X"}
 },
 }
 local msgg = msg_id/2097152/0.5
@@ -9953,7 +9953,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -9981,7 +9981,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -10001,7 +10001,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10021,7 +10021,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -10041,7 +10041,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -10061,7 +10061,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10075,7 +10075,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = 't.me/BBTBB'}, 
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -10089,7 +10089,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 JOKER', url = 't.me/BBTBB'}, 
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -10354,20 +10354,20 @@ end
 Redis:del(TheJOKER.."JOKER:Name:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"᥀︙تم حذف اسم البوت ","md",true)   
 end
-if text == (Redis:get(TheJOKER.."JOKER:Name:Bot") or "جوكر") then
-local NamesBot = (Redis:get(TheJOKER.."JOKER:Name:Bot") or "جوكر")
+if text == (Redis:get(TheJOKER.."JOKER:Name:Bot") or "سكولز") then
+local NamesBot = (Redis:get(TheJOKER.."JOKER:Name:Bot") or "سكولز")
 local NameBots = {
 "ها "..NamesBot.. " شتريد؟",
 "أჂ̤ أჂ̤ هياتني اني",
 "موجود بس لتصيح",
-"لتــلح دا احجي ويه بنات جوكر بعدين اجاوبك",
+"لتــلح دا احجي ويه بنات سكولز بعدين اجاوبك",
 "راح نموت بكورونا ونته بعدك تصيح "..NamesBot,
 'يمعود والله نعسان'
 }
 return LuaTele.sendText(msg_chat_id,msg_id, NameBots[math.random(#NameBots)],"md",true)  
 end
 if text == "بوت" then
-local NamesBot = (Redis:get(TheJOKER.."JOKER:Name:Bot") or "جوكر")
+local NamesBot = (Redis:get(TheJOKER.."JOKER:Name:Bot") or "سكولز")
 local BotName = {
 "باوع لك خليني احبك وصيحلي باسمي "..NamesBot,
 "لتخليني ارجع لحركاتي لقديمه وردا ترا اسمي "..NamesBot.. "",
@@ -11320,7 +11320,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/BBTBB'},{text = '᥀ لتنصيب بوت .', url = 't.me/FFMFF'}, 
+{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/Zbbbbb'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11333,7 +11333,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/BBTBB'},{text = '᥀ لتنصيب بوت .', url = 't.me/FFMFF'}, 
+{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/Zbbbbb'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12174,7 +12174,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 JOKER ❳',url="t.me/BBTBB"}
+{text = '❲ 𝖲𝗈𝗎𝗋𝖼𝖾 𝙎𝙆𝙐𝙇𝙕 ❳',url="t.me/NNN8X"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12452,7 +12452,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -12510,7 +12510,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12569,7 +12569,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -12622,7 +12622,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12662,7 +12662,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12717,7 +12717,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/NNN8X'}, 
 },
 }
 }
@@ -12758,7 +12758,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/BBTBB'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
